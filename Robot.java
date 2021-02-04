@@ -14,37 +14,7 @@ public class Robot extends Actor
      */
     public void act() 
     {
-        movement();
-        colliders();
+        
     }
-    public void movement()
-    {
-        if(Greenfoot.isKeyDown("Up"))
-        {
-            setLocation(getX(),getY()- 2);
-        }
-        if(Greenfoot.isKeyDown("Right"))
-        {
-            setLocation(getX()+2,getY());
-        }
-        if(Greenfoot.isKeyDown("Left"))
-        {
-            setLocation(getX()-2,getY());
-        }
-        if(Greenfoot.isKeyDown("Down"))
-        {
-            setLocation(getX(),getY()+2);
-        }
-    }
-    public void colliders()
-    {
-        if(isTouching(Wall.class))
-        {
-            setLocation(getX(),getY()-2);
-        }
-        if(isTouching(Block.class))
-        {
-            
-        }
-    }
+
 }
