@@ -20,6 +20,7 @@ public class RobotWorld extends World
         prepareScenario();
         
         
+        
     }
     public void prepareScenario()
     {
@@ -39,8 +40,15 @@ public class RobotWorld extends World
         addObject(new Pizza(),682,312);
         addObject(new Pizza(),417,537);
         
+    }
+    public void robotMovement()
+    {
+        Robot robot= new Robot();
+        robot.act();
+        robot.playerMovement();
         
     }
+        
    
 }
 

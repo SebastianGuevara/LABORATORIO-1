@@ -6,4 +6,6 @@ comment1.target=RobotWorld()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RobotWorld.\r\n\ \r\n
 comment2.params=
 comment2.target=void\ prepareScenario()
-numComments=3
+comment3.params=
+comment3.target=void\ robotMovement()
+numComments=4
