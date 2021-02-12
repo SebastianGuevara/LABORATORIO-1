@@ -41,13 +41,7 @@ public class RobotWorld extends World
         addObject(new Pizza(),417,537);
         
     }
-    public void robotMovement()
-    {
-        Robot robot= new Robot();
-        robot.act();
-        robot.playerMovement();
-        
-    }
+
         
    
 }

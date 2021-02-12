@@ -16,7 +16,7 @@ public class Robot extends Actor
     {
         this.detectWallCollision();
         this.detectBlockCollision();
-        this.playerMovement();
+        this.robotMovement();
         this.detectHome();
         this.eatPizza();
     }
@@ -36,7 +36,7 @@ public class Robot extends Actor
             Greenfoot.playSound("hurt.mp3");
         }
     }
-    public void playerMovement()
+    public void robotMovement()
     {
         if(Greenfoot.isKeyDown("Up"))
         {
